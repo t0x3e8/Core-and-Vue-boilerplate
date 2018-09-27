@@ -4,3 +4,4 @@ obj/
 bin/Debug/
 
 .vscode/
+node_modules/

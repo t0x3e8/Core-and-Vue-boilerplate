@@ -1,0 +1,14 @@
+{
+  "name": "battleship.mvc.vue",
+  "version": "0.0.1",
+  "description": "Asp.net Core MVC 2.1 with Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t0x3e8@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
