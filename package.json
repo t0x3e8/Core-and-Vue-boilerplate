@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2"
   }
 }
