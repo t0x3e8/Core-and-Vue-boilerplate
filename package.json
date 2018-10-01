@@ -6,12 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "author": "t0x3e8@gmail.com",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "webpack": "^4.20.2"
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-merge": "^4.1.4"
   }
 }
