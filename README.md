@@ -13,7 +13,9 @@ This boilerplate uses Eslint as the linter for script files. It is not indispens
 - eslint-plugin-vue used with *.vue files, 
 
 # Run Dev
-webpack --config=webpack.dev.js 
+(in order to run tasks concurrently, the [Concurrently](https://www.npmjs.com/package/concurrently) must be installed 'npm install -g concurrently')
+
+npm run dev
 
 # Run Prod
-webpack --config=webpack.prod.js 
+npm run build

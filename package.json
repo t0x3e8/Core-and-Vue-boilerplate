@@ -4,7 +4,8 @@
   "description": "Asp.net Core MVC 2.1 with Vue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"dotnet run\" \"webpack --config=webpack.dev.js --watch\"",
+    "build": "webpack --config=webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
     "webpack-merge": "^4.1.4"
   }
 }
