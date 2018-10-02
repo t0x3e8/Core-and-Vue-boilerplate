@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/t0x3e8/Core-and-Vue-boilerplate.git"
   },
   "author": "t0x3e8@gmail.com",
   "license": "ISC",
@@ -19,6 +19,9 @@
     "@babel/core": "^7.1.2",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
+    "eslint": "^5.6.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0-beta.3",
     "file-loader": "^2.0.0",
     "sass-loader": "^7.1.0",
     "vue-loader": "^15.4.2",

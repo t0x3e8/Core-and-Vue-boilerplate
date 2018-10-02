@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <p>Hello World from Vue!</p> 
+    <p>Hello World from Vue!</p>
     Your name? <input v-model="name" type="text"/>
 
     <div v-if="name ">Hi, {{name}}</div>
@@ -10,11 +10,10 @@
 <script>
 
 export default {
-  // eslint-disable-next-line
-  name: "app",
+  name: 'app',
   components: {
   },
-  data() {
+  data () {
     return {
       name: null
     }
