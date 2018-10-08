@@ -19,3 +19,6 @@ npm run dev
 
 # Run Prod
 npm run build
+
+# Add localhost certs
+dotnet dev-certs https --trust"
